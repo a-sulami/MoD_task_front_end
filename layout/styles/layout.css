@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+@import url("font-awesome.min.css");
+@import url("custom.flexslider.css");
+@import url("framework.css");
+
+/* Rows
+--------------------------------------------------------------------------------------------------------------- */
+
+.row1 {
+  border-bottom: 1px solid;
+}
+.row2 {
+  border-bottom: 1px solid;
+}
+
+.row5 {
+  border-top: 1px solid;
+}
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar {
+  padding: 15px 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+#topbar * {
+  margin: 0;
+}
+#topbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 15px;
+  border-right: 1px solid;
+}
+#topbar ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+#topbar i {
+  margin: 0 5px 0 0;
+  line-height: normal;
+}
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+
+#header #logo {
+  margin: 20px 0 0 0;
+}
+#header #logo  {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/* Page Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro {
+  padding: 150px 0;
+}
+
+
+/* Content Area
+--------------------------------------------------------------------------------------------------------------- */
+.container {
+  padding: 80px 0;
+}
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+#footer {
+  padding: 0px 0;
+}
+
+#footer .heading {
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+/* 
+--------------------------------------------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  transition: all 0.28s ease-in-out;
+}
+#mainav form * {
+  transition: none !important;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Colours
+--------------------------------------------------------------------------------------------------------------- */
+body {
+  color: #cbcbcb;
+  background-color: #409964;
+}
+
+
+
+/* Rows */
+.row0,
+.row0 a {
+  color: #020702;
+  background-color: #012e12;
+}
+.row1 {
+  color: #474747;
+  background-color: #ffffff;
+}
+
+.row3 {
+  color: #474747;
+  background-color: #ffffff;
+}
+.row4 {
+  color: #cbcbcb;
+  background-color: #012e12;
+}
+.row5,
+.row5 a {
+  color: #cbcbcb;
+  background-color: #012e12;
+}
+.row5 {
+  border-color: #012e12;
+}
+
+/* Footer */
+
+
+
+
+#footer button {
+  color: #ffffff;
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Media Queries
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport {
+  width: device-width;
+}
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 978px) {
+  .hoc {
+    max-width: 978px;
+  }
+}
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 900px) {
+  .hoc {
+    max-width: 90%;
+  }
+
+  #header {
+    padding: 30px 0 15px;
+  }
+  #header #logo {
+    margin: 0;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .imgl,
+  .imgr {
+    display: inline-block;
+    float: none;
+    margin: 0 0 10px 0;
+  }
+  .fl_left,
+  .fl_right {
+    display: block;
+    float: none;
+  }
+  #header {
+    text-align: center;
+  }
+  #header #logo {
+    margin-bottom: 15px;
+  }
+
+  .sectiontitle {
+    max-width: none;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+}
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 650px) {
+  .scrollable {
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0 0 15px 0;
+    overflow: auto;
+    overflow-x: scroll;
+  }
+  .scrollable table {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .inline li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .pushright li {
+    margin-right: 0;
+  }
+
+  .font-x2 {
+    font-size: 1.4rem;
+  }
+  .font-x3 {
+    font-size: 1.6rem;
+  }
+
+  #pageintro li article {
+    max-width: none;
+    width: 100%;
+  }
+  #pageintro li .heading {
+    font-size: 1.6rem;
+  }
+}
+
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.btn {
+  color: black;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+background-color: transparent;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  /* overflow: hidden; */
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.card_content {
+  padding: 1rem;
+  background: transparent;
+}
+
+.card_title {
+  color: dark;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: dark;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #012e12;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #0daa3c;
+  text-align: center;
+  padding: 14px 70px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(13, 17, 73);
+}
+
+
